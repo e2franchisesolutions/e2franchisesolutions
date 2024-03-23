@@ -593,11 +593,17 @@ a:link{
 }
 
 
-.company_logo{
+.company_logo_mobile{
   width: 200px;
   position: absolute;
   margin-left: 30px;
   bottom: 0;
+}
+
+.flex_box02{
+  display: flex;
+  gap: 0px;
+  margin-top: 0px;
 }
 
 .flex_box03{
