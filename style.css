@@ -223,7 +223,7 @@ a:link{
   color: #9D9D9D;
   font-family: sf-pro;
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .flex_box04{
@@ -232,10 +232,10 @@ a:link{
 }
 
 .button02{
-  width: 40px;
+  width: 120px;
   height: 40px;
   border-radius: 100px;
-  margin-top: 60px;
+  margin-top: 30px;
   background-color: #9d9d9d00;
   border: 1px solid #9D9D9D;
   transition: 0.40s;
@@ -243,35 +243,23 @@ a:link{
   .img-arrow{
     display: flex;
     width: 18px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
+    margin-left: none;
+    margin-right: 20px;
     margin-top: 12px;
   }
-
-  .details{
-    display: none;
-  }
-}
-
-.button02:hover{
-  width: 120px;
-  
 
   .details{
     display: block;
     margin-top: 9px;
     margin-left: 20px;
-    color: #9D9D9D;
+    color: #9D9D9D;  
   }
+}
 
-  .img-arrow{
-    display: flex;
-    width: 18px;
-    height: 100%;
-    margin-left: none;
-    margin-right: 40px;
-    margin-top: 12px;
-  }
+.button02:hover{
+  width: 180px;
+
 }
 
 .third-page{
@@ -364,8 +352,7 @@ a:link{
 
 .contact-div{
   width: 80%;
-  height: 800px;
-  background-color: #020d1200;
+  height: 1050px;
   border-top: 1px solid #333333;
   margin-top: 200px;
   margin-left: auto;
@@ -401,7 +388,26 @@ a:link{
   }
 }
 
+.form_button{
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #9d9d9d00;
+  border: 1px solid rgba(255, 255, 255, 0.322);
 
+  .details{
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.form_button:hover{
+  background-color: #ffffff;
+
+  .details{
+    color: #000000;
+  }
+}
 
 
 
@@ -644,7 +650,7 @@ a:link{
 }
 
 .button02{
-  width: 40px;
+  width: 120px;
   height: 40px;
   border-radius: 100px;
   margin-top: 30px;
@@ -655,37 +661,24 @@ a:link{
   .img-arrow{
     display: flex;
     width: 18px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
+    margin-left: none;
+    margin-right: 20px;
     margin-top: 12px;
   }
-
-  .details{
-    display: none;
-  }
-  
-}
-
-.button02:hover{
-  width: 120px;
-  
 
   .details{
     display: block;
     margin-top: 9px;
     margin-left: 20px;
-    color: #9D9D9D;
-  }
-
-  .img-arrow{
-    display: flex;
-    width: 18px;
-    height: 100%;
-    margin-left: none;
-    margin-right: 40px;
-    margin-top: 12px;
+    color: #9D9D9D;  
   }
 }
+
+.button02:hover{
+    width: 180px;
+}
+
 
 .flex02{
   width: 100%;
@@ -778,7 +771,7 @@ a:link{
 
 .contact-div{
   width: 80%;
-  height: 770px;
+  height: 1200px;
   border-top: 1px solid #333333;
   margin-top: 200px;
   margin-left: auto;
@@ -808,4 +801,12 @@ a:link{
     color: white;
   }
 }
+}
+
+.form_button:hover{
+  background-color: #ffffff;
+
+  .details{
+    color: #000000;
+  }
 }
