@@ -458,6 +458,44 @@ html{
   
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media  (max-width: 1310px) {
+    .company_logo{
+      width: 200px;
+      position: absolute;
+      margin-top: 300px;
+      bottom: 0;
+    }
+  }
   
   
   
